@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon3.ico" type="image/x-icon">
+    <title>Qurbonov.Uz</title>
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/my.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script type="text/javascript" src=js/jquery.min.js></script>
+    <script type="text/javascript" src=app/bundle.js></script>
+</head>
+
+<body>
+    <header class="w3-teal">
+        <h1>Darslik</h1>
+    </header>
+    <ul class="w3-navbar w3-pale-green w3-card-2 w3-left-align w3-large">
+        <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+            <a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="showMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        </li>
+        <li><a href="index.html" class="w3-padding-large">Dars</a></li>
+        <li class="w3-hide-small"><a href="pages\html5.html" class="w3-padding-large w3-hover-white">HTML5</a></li>
+        <li class="w3-hide-small"><a href="pages\css3.html" class="w3-padding-large w3-hover-white">CSS3</a></li>
+        <li class="w3-hide-small"><a href="pages\js.html" class="w3-padding-large w3-hover-white">JavaScript</a></li>
+    </ul>
+    <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:51px">
+        <ul class="w3-navbar w3-left-align w3-large  w3-pale-green">
+            <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+                <a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="showMenu()" title="Toggle Navigation Menu">
+                    <i class="fa fa-bars"></i></a>
+            </li>
+            <li><a class="w3-padding-large" href="pages\html5.html">HTML5</a></li>
+            <li><a class="w3-padding-large" href="pages\css3.html">CSS3</a></li>
+            <li><a class="w3-padding-large" href="pages\js.html">JavaScript</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="w3-container">
+            <div class=" w3-animate-bottom">
+                <i class="fa fa-html5" aria-hidden="true"></i>
+                <i class="fa fa-css3" aria-hidden="true"></i>
+                <i class="fa fa-code" aria-hidden="true"></i>
+            </div>
+            <h1 class="w3-animate-bottom">
+                HTML5, CSS3 , JavaScript  haqida,  sahifada imkon boricha to'liq malumot beriladi
+            </h1>
+        </div>
+    </header>
+    </article>
+    <script>
+    function showMenu() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    </script>
+</body>
+
+</html>

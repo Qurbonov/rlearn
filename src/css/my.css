@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /*background-color: #F5F5DC;*/
+    color: #5F9EA0;
+    padding: 5px 0px 5px 25px;
+}
+
+article > header {
+    background-color: #F0FFFF;
+}
+
+h1 {
+    font-size: 1vmax;
+}
+
+@media screen and (max-width: 1025px) {
+    h1 {
+        font-size: 2vmax;
+    }
+}
